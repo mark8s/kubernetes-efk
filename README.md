@@ -40,6 +40,6 @@ Ok, Now you can access kibana: http://nodeIp:30000
 ## Uninstall
 
 ```shell
-kubectl uninstall -f . 
+kubectl delete -f . 
 ```
 
